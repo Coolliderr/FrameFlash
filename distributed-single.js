@@ -1,3 +1,4 @@
+// 后端查询合约事件
 import { readFile, writeFile, access } from "fs/promises";
 import Database from "better-sqlite3";
 import { keccak256, toUtf8Bytes, Interface } from "ethers";
@@ -206,3 +207,4 @@ async function main() {
 }
 
 main().catch(e => { console.error(e); process.exit(1); });
+
