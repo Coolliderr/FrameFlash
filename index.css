@@ -1,8 +1,0 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-
-/* 可选：让深色背景更接近预览 */
-:root { color-scheme: dark; }
-html,body,#root{ height:100%; }
-body{ @apply bg-[#191426] text-white; }
