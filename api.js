@@ -1,4 +1,4 @@
-// src/api.js
+// src/api.js  
 
 // ===== 基础配置 =====
 export let BASE_URL = "https://api.matou.work"; // 你的域名
@@ -138,3 +138,4 @@ export const api = {
     return get("/distributor/distributions", q);
   },
 };
+
