@@ -1,4 +1,4 @@
-// src/contract.js —— BSC 网络，FrameFlash + TokenDistributor 前端对接（ethers v6）
+// src/contract.js —— BSC 网络，FrameFlash + TokenDistributor 前端对接（ethers v6）  
 import { ethers } from "ethers";
 
 /** 目标网络：BSC Mainnet */
@@ -332,3 +332,4 @@ export async function ffDecimals() {
   const meta = await tokenMeta(TOKEN_ADDRESS);
   return meta.decimals;
 }
+
