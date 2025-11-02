@@ -1,4 +1,4 @@
-// src/keys.js
+// src/keys.js  
 import { ethers } from "ethers"; // v6
 
 /** 生成 keystore（仅返回 JSON 字符串） */
@@ -86,3 +86,4 @@ export async function signWithKeystore(keystoreJson, password, message, progress
   const address = ethers.getAddress(wallet.address);
   return { address, signature, message };
 }
+
