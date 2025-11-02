@@ -1,4 +1,4 @@
-// server.mjs
+// server.mjs 后端接口文件
 import 'dotenv/config';
 import express from 'express';
 import helmet from 'helmet';
@@ -384,3 +384,4 @@ app.listen(Number(PORT), () => {
   console.log(`Operator: ${signer.address}`);
   console.log(`SQLite DB_FILE: ${DB_FILE}`);
 });
+
